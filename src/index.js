@@ -7,7 +7,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 Sentry.init({
-  dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
+  dsn: "https://0e30729b3ab94e3ebc98aa0080bcd7fe@o1332782.ingest.sentry.io/6597661",
   integrations: [new BrowserTracing()],
 
   // We recommend adjusting this value in production, or using tracesSampler
