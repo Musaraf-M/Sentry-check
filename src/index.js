@@ -7,9 +7,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 Sentry.init({
+  environment: "production",
   dsn: "https://0e30729b3ab94e3ebc98aa0080bcd7fe@o1332782.ingest.sentry.io/6597661",
   integrations: [new BrowserTracing()],
-
+  autoSessionTracking: true,
   // We recommend adjusting this value in production, or using tracesSampler
   // for finer control
   tracesSampleRate: 1.0,
